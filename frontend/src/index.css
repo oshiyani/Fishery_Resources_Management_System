@@ -1,0 +1,14 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { height: 100%; width: 100%; }
+body {
+  font-family: 'Nunito', 'Trebuchet MS', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #0a1628;
+  color: #e0f7ff;
+}
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0a1628; }
+::-webkit-scrollbar-thumb { background: #0891b2; border-radius: 3px; }
+a { color: #06b6d4; }
+button { cursor: pointer; }
+input, select, textarea { font-family: inherit; }
